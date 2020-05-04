@@ -3,13 +3,13 @@ package com.sxau.cs.file.store.api.common.model.response;
 import java.io.Serializable;
 
 public class FileDownloadResponse implements Serializable {
-    private Byte[] fileByteArray;
+    private byte[] fileByteArray;
 
-    public Byte[] getFileByteArray() {
+    public byte[] getFileByteArray() {
         return fileByteArray;
     }
 
-    public void setFileByteArray(Byte[] fileByteArray) {
+    public void setFileByteArray(byte[] fileByteArray) {
         this.fileByteArray = fileByteArray;
     }
 }

@@ -7,5 +7,12 @@
     <groupId>com.sxau.cs</groupId>
     <artifactId>cs-file-store-api</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.2.2.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
